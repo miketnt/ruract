@@ -1,0 +1,6 @@
+
+.menubar li{
+	float:left;
+	display:inline;
+	padding-right: 2em;
+}
