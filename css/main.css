@@ -1,6 +1,6 @@
 html{
 	
-	background-color: /* darkslate */ grey;
+	background-color: darkslategrey;
 
 	font-size: 100%;
 	line-height: 1.5em;
@@ -10,15 +10,20 @@ html{
 
 body{
 
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	height: 100%;
+
 
 	background-color: white;
 }
 
+article{
+	margin: 2em;
+}
 .menubar {
 	margin: 0;
+	padding: 1em;
 	background-color: greenyellow;
 }
 
