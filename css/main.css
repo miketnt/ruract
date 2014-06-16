@@ -13,7 +13,7 @@ body{
 	width: 80%;
 	margin: 0 auto;
 	height: 100%;
-
+	min-height: 100%;
 
 	background-color: white;
 }
@@ -22,12 +22,27 @@ article{
 	margin: 2em;
 }
 .menubar {
+
+	
+	overflow: hidden;
 	margin: 0;
-	padding: 1em;
+	padding: 1em 0em;
 	background-color: greenyellow;
+
+
 }
 
 .menubar li{
 	display: inline;
-	padding-right: 1em;
+	padding-right: 0em;
+	float: right;
+
+}
+
+.menubar li a{
+	text-decoration: none;
+	padding: 1.2em;
+
+	background-color: aliceblue;
+	
 }
